@@ -42,6 +42,10 @@ main {
     border-right: #111111 solid 12px; */
 }
 
+.card:hover h1 {
+    color: #F4D04E;
+}
+
 .card .tag {
     background-color: var(--background);
     display: inline-block;
@@ -83,8 +87,10 @@ p {
     display: flex;
     font-weight: 800;
     gap: 16px;
+    align-items: center;
 }
 
 .author img {
-
+    max-width: 12%;
+    height: 12%;
 }
