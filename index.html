@@ -14,38 +14,39 @@
 
     <title>Blog preview card</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
-      <div class="tag">
-        <span>Learning</span>
-      </div>
-
-      <div class="time">Published 21 Dec 2023</div>
-
       <div class="card">
-        <img src="./assets/images/illustration-article.svg" alt="" />
-        <h1>HTML & CSS foundations</h1>
+        <div>
+          <div class="blog-picture">
+            <img
+              src="./assets/images/illustration-article.svg"
+              alt="blog-pic"
+            />
+          </div>
+          <div class="info">
+            <div class="tag">
+              <span>Learning</span>
+            </div>
 
-        <p>
-          These languages are the backbone of every website, defining structure,
-          content, and presentation.
-        </p>
-      </div>
+            <div class="time">Published 21 Dec 2023</div>
+          </div>
+          <div class="blog-text">
+            <h1>HTML & CSS foundations</h1>
 
-      <div class="author">
-        <img src="./assets/images/image-avatar.webp" alt="" />
-        <h3>Greg Hooper</h3>
+            <p>
+              These languages are the backbone of every website, defining
+              structure, content, and presentation.
+            </p>
+          </div>
+        </div>
+
+        <div class="author">
+          <img src="./assets/images/image-avatar.webp" alt="author-pic" />
+          <h3>Greg Hooper</h3>
+        </div>
       </div>
     </main>
   </body>
