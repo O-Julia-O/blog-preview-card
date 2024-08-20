@@ -15,6 +15,7 @@
     font-family: "Figtree", sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 150%;
 }
 
 img, picture {
@@ -35,13 +36,11 @@ main {
 .card__headline {
     font-size: clamp(20px, 5vw, 24px);
     font-weight: 800;
-    line-height: 150%;
 }
 
 .card__paragraph {
     color: var(--par-color);
     font-weight:500;
-    line-height: 150%;
     font-size: clamp(14px, 3vw, 16px);
 }
 
@@ -76,14 +75,12 @@ main {
     font-size: clamp(12px, 3vw, 14px);
     font-family: var(--font-family);
     font-weight:800;
-    line-height: 150%;
 }
 
 .card__date {
     font-size: clamp(12px, 3vw, 14px);
     font-weight: 500;
     padding-top: var(--spacing-md);
-    line-height: 150%;
 }
 
 .card__image {
