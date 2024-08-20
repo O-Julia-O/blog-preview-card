@@ -38,14 +38,14 @@ h1 {
 }
 
 p {
-    color: --par-color;
+    color: var(--par-color);
     font-weight:500;
 }
 
 .card {
     background-color: white;
     padding: var(--spacing-xl);
-    border-radius: 20px;
+    border-radius: 1.25rem;
     max-width: 24rem;
     margin: 0 1.5rem;
 
@@ -55,14 +55,14 @@ p {
 }
 
 .card:hover h1 {
-    color: #F4D04E;
+    color: var(--background);
 }
 
 .card__tag {
     background-color: var(--background);
     display: inline-block;
     padding: var(--spacing-sm);
-    border-radius: 4px;
+    border-radius: var(--spacing-md);
     font-size: 14px;
     font-family: var(--font-family);
     font-weight:800;
@@ -73,13 +73,13 @@ p {
 }
 
 .card__image {
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .author {
     display: flex;
     font-weight: 800;
-    gap: 16px;
+    gap: 1rem;
     align-items: center;
 }
 
