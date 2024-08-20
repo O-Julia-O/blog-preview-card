@@ -2,10 +2,10 @@
 
 :root {
     --background: #F4D04E;
-    --spacing-xl: 24px;
-    --spacing-lg: 12px;
-    --spacing-md: 8px;
-    --spacing-sm: 4px;
+    --spacing-xl: 1.5rem;
+    --spacing-lg: 0.75rem;
+    --spacing-md: 0.5rem;
+    --spacing-sm: 0.25rem;
     --font-family: "Figtree";
     --par-color: #6B6B6B;
 }
@@ -52,9 +52,6 @@ p {
 
     box-shadow: 12px 12px 0px 1px #111111;
     border: #111111 solid 1px;
-
-    /* border-bottom: #111111 solid 12px;
-    border-right: #111111 solid 12px; */
 }
 
 .card:hover h1 {
