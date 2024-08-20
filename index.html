@@ -18,36 +18,34 @@
   </head>
   <body>
     <main>
-      <div class="card">
-        <div>
-          <div class="blog-picture">
-            <img
-              src="./assets/images/illustration-article.svg"
-              alt="blog-pic"
-            />
+      <article class="card">
+        <img
+          class="card__image"
+          src="./assets/images/illustration-article.svg"
+          alt="image for blog"
+        />
+        <div class="card__details">
+          <div class="card__tag">
+            <span>Learning</span>
           </div>
-          <div class="info">
-            <div class="tag">
-              <span>Learning</span>
-            </div>
+          <div class="card__date">Published 21 Dec 2023</div>
+          <h1 class="card__headline">HTML & CSS foundations</h1>
 
-            <div class="time">Published 21 Dec 2023</div>
-          </div>
-          <div class="blog-text">
-            <h1>HTML & CSS foundations</h1>
-
-            <p>
-              These languages are the backbone of every website, defining
-              structure, content, and presentation.
-            </p>
-          </div>
+          <p class="card__paragraph">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
         </div>
 
         <div class="author">
-          <img src="./assets/images/image-avatar.webp" alt="author-pic" />
-          <h3>Greg Hooper</h3>
+          <img
+            class="author__photo"
+            src="./assets/images/image-avatar.webp"
+            alt="your photo image"
+          />
+          <h3 class="author__name">Greg Hooper</h3>
         </div>
-      </div>
+      </article>
     </main>
   </body>
 </html>
