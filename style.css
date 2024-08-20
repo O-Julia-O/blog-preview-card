@@ -32,6 +32,16 @@ main {
     min-height: 100vh;
 }
 
+h1 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+p {
+    color: --par-color;
+    font-weight:500;
+}
+
 .card {
     background-color: white;
     padding: var(--spacing-xl);
@@ -51,7 +61,7 @@ main {
     color: #F4D04E;
 }
 
-.card .tag {
+.card__tag {
     background-color: var(--background);
     display: inline-block;
     padding: var(--spacing-sm);
@@ -61,31 +71,12 @@ main {
     font-weight:800;
 }
 
-.card .time {
+.card__date {
     padding-top: var(--spacing-md);
 }
 
-.card .blog-picture {
-    display: flex;
-    justify-content: center;
-    padding-bottom: var(--spacing-md);
-    
-}
-
-.card .blog-picture img {
+.card__image {
     border-radius: 10px;
-  
-    width: 100%;
-}
-
-h1 {
-    font-size: 20px;
-    font-weight: 800;
-}
-
-p {
-    color: --par-color;
-    font-weight:500;
 }
 
 .author {
@@ -95,7 +86,7 @@ p {
     align-items: center;
 }
 
-.author img {
+.author__photo {
     max-width: 12%;
     height: 12%;
 }
