@@ -74,6 +74,7 @@ p {
 
 .card__image {
     border-radius: 0.625rem;
+    margin-bottom: var(--spacing-xl);
 }
 
 .author {
