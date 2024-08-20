@@ -33,7 +33,7 @@ main {
 }
 
 .card__headline {
-    font-size: 20px;
+    font-size: clamp(20px, 5vw, 24px);
     font-weight: 800;
     line-height: 150%;
 }
@@ -42,7 +42,7 @@ main {
     color: var(--par-color);
     font-weight:500;
     line-height: 150%;
-    font-size: 14px;
+    font-size: clamp(14px, 3vw, 16px);
 }
 
 .card {
@@ -73,14 +73,14 @@ main {
     background-color: var(--background);
     padding: var(--spacing-sm) var(--spacing-lg);
     border-radius: var(--spacing-sm);
-    font-size: 12px;
+    font-size: clamp(12px, 3vw, 14px);
     font-family: var(--font-family);
     font-weight:800;
     line-height: 150%;
 }
 
 .card__date {
-    font-size: 12px;
+    font-size: clamp(12px, 3vw, 14px);
     font-weight: 500;
     padding-top: var(--spacing-md);
     line-height: 150%;
