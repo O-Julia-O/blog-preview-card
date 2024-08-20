@@ -17,6 +17,10 @@
     padding: 0;
 }
 
+img, picture {
+    width: 100%;
+}
+
 body {
     background-color: var(--background);
 }
