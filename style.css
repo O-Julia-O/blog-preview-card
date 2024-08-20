@@ -96,6 +96,5 @@ main {
 }
 
 .author__photo {
-    max-width: 8%;
-    height: 8%;
+    max-width: 32px;
 }
